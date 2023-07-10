@@ -1,0 +1,54 @@
+.form_register {
+  min-width: 25rem;
+  height: auto;
+  padding: 1rem;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#name,
+#email,
+#password,
+#password_confirm {
+  width: 100%;
+  height: 2rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#button_submit {
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #662626;
+  cursor: pointer;
+}
+
+#button_submit:hover {
+  background-color: #421111;
+  color: #662626;
+}
+
+#link_login {
+  cursor: pointer;
+  color: #382e2e;
+}
+
+#link_login:hover {
+  color: #662626;
+}
