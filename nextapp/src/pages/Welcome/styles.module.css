@@ -1,0 +1,36 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.welcome h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #662626;
+  animation: colorchange 1s infinite;
+}
+
+@keyframes colorchange {
+  0% {
+    color: #351a1a;
+  }
+
+  25% {
+    color: yellow;
+  }
+
+  50% {
+    color: blue;
+  }
+
+  75% {
+    color: green;
+  }
+
+  100% {
+    color: #3b1d1d;
+  }
+}
